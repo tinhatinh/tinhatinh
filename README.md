@@ -13,7 +13,7 @@
 - 🎓 I’m currently studying at **PTIT** (Posts and Telecommunications Institute of Technology)
 - 🌱 I’m currently learning **Penetration Testing (Pentest)**
 - **Languages**:
-  - 🇨🇳 Chinese: HSK 4 (262/300)
+  - 🇨🇳 Chinese: HSK 4 (262/300) + HSKK Intermediate
   - 🇬🇧 English: Aiming for TOEIC 850
 - 📫 How to reach me: **ptdanh007@gmail.com**
 
