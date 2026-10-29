@@ -18,7 +18,6 @@
 - 📫 How to reach me: **ptdanh007@gmail.com**
 
 ### 🛠️ Languages & Tools
-<!-- Danh sách công nghệ được điều chỉnh một chút hướng về sinh viên IT và người làm bảo mật/Pentest -->
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=python,linux,bash,c,cpp,java,git,github,vscode,docker&perline=10" />
