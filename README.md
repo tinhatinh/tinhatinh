@@ -68,7 +68,7 @@
 
 ---
 
-### `🚩 [ 0x02 // CTF ENGAGEMENTS & FEATURED OPERATIONS ]`
+### `🚩 [ 0x02 // CTF ENGAGEMENTS & WRITEUP ARCHIVE ]`
 
 <div align="center">
   <a href="https://tinhatinh.github.io/CTFWU/">
@@ -76,69 +76,9 @@
   </a>
 </div>
 
-<br/>
-
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🏴‍☠️ <a href="https://github.com/tinhatinh/CTFWU">CTFWU — CTF Writeups Archive</a></h4>
-      <p>Declassified exploit chains, solver scripts &amp; deep-dive security writeups across <b>12+ international CTF competitions</b> (Web, Reverse, Pwn, Crypto, Forensics, OSINT).</p>
-      <p>
-        <a href="https://tinhatinh.github.io/CTFWU/"><code>[🌐 Live Writeups Portal]</code></a>
-        <code>[12+ Campaigns]</code>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4>⚡ <a href="https://github.com/tinhatinh/Winterboy-Studio">Winterboy-Studio</a></h4>
-      <p>Flagship Python automation &amp; utility engineering project built for speed, modular execution, and clean workflow integration.</p>
-      <p>
-        <code>[Python]</code>
-        <code>[★ 12 Stars]</code>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🛡️ <a href="https://github.com/tinhatinh/CSATT-PTIT-D23">CSATT-PTIT-D23</a></h4>
-      <p>Information Security foundations &amp; applied cryptographic / system security coursework implementation at <b>PTIT</b>.</p>
-      <p>
-        <code>[Information Security]</code>
-        <code>[PTIT D23]</code>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🧰 <a href="https://github.com/tinhatinh/Advanced-Clipboard-Save">Advanced-Clipboard-Save</a> &amp; <a href="https://github.com/tinhatinh/LIGHTNING-FAST-MP4-to-MP3-converter">Fast-Converter</a></h4>
-      <p>Browser clipboard capture extension &amp; GPU-accelerated multi-threaded media processing pipeline.</p>
-      <p>
-        <code>[JavaScript]</code>
-        <code>[Multi-Threading / GPU]</code>
-      </p>
-    </td>
-  </tr>
-</table>
-
 ---
 
-### `📊 [ 0x03 // SYSTEM TELEMETRY & COMMIT ANALYTICS ]`
-
-<div align="center">
-
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tinhatinh&theme=github_dark" width="100%" alt="Profile Summary Details" />
-
-  <br/><br/>
-
-  <img src="https://streak-stats.demolab.com?user=tinhatinh&theme=hacker&hide_border=true&background=0B1018&ring=00FF41&fire=FF2A6D&currStreakLabel=00F0FF" width="49%" alt="GitHub Streak Stats" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tinhatinh&theme=github_dark" width="48%" alt="Top Languages by Repo" />
-
-  <br/><br/>
-
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tinhatinh&bg_color=070b12&color=00ff41&line=00f0ff&point=ff2a6d&area=true&hide_border=true&custom_title=Tactical%20Commit%20Telemetry%20%2F%2F%20tinhatinh" width="100%" alt="Contribution Activity Graph" />
-
-</div>
-
----
-
-### `🐍 [ 0x04 // CONTRIBUTION MATRIX INFILTRATION ]`
+### `🐍 [ 0x03 // CONTRIBUTION MATRIX INFILTRATION ]`
 
 <div align="center">
   <img alt="Red-Team Contribution Matrix Snake" src="./assets/contrib-snake.svg" width="100%" />
