@@ -5,7 +5,7 @@
 
   <!-- DYNAMIC TERMINAL TYPING PROMPT -->
   <a href="https://github.com/tinhatinh">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2800&pause=900&color=00FF41&center=true&vCenter=true&width=760&lines=root%40tinhatinh%3A~%23+.%2Finit_redteam_ops.sh;Information+Security+Student+%40+PTIT+%7C+Ha+Noi%2C+Vietnam;Penetration+Testing+%E2%80%A2+Web+Exploitation+%E2%80%A2+Reverse+Engineering;Strategist+Mindset%3A+%E9%83%AD%E5%98%89+(%E5%A5%89%E5%AD%9D)+%7C+HSK4+(262%2F300)+%E2%80%A2+TOEIC+850%2B" alt="Terminal Typing Animation" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2800&pause=900&color=00FF41&center=true&vCenter=true&width=780&lines=root%40tinhatinh%3A~%23+.%2Finit_redteam_ops.sh;Information+Security+Student+%40+PTIT+%7C+Ha+Noi%2C+Vietnam;Penetration+Testing+%E2%80%A2+Web+Exploitation+%E2%80%A2+Reverse+Engineering;Strategist+Mindset%3A+%E9%83%AD%E5%98%89+(%E5%A5%89%E5%AD%9D)+%7C+HSK4+(262%2F300)+%E2%80%A2+Aiming+TOEIC+~800" alt="Terminal Typing Animation" />
   </a>
 
   <!-- UPLINK / COMMAND CHANNELS -->
