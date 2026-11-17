@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250" width="100%" height="250" role="img" aria-label="tinhatinh - Danh Phan Offensive Security Banner">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060a12"/>
+      <stop offset="50%" stop-color="#0b1322"/>
+      <stop offset="100%" stop-color="#070c16"/>
+    </linearGradient>
+
+    <linearGradient id="neonLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff41" stop-opacity="1"/>
+      <stop offset="55%" stop-color="#00f0ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ff2a6d" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="scanBeam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00ff41" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00ff41" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="radarGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00ff41" stop-opacity="0.18"/>
+      <stop offset="70%" stop-color="#00f0ff" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="cyberGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#00ff41" stroke-width="0.5" stroke-opacity="0.08"/>
+    </pattern>
+
+    <clipPath id="cardClip">
+      <rect x="2" y="2" width="896" height="246" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cardClip)">
+    <!-- Base Background & Grid -->
+    <rect x="0" y="0" width="900" height="250" fill="url(#bgGrad)"/>
+    <rect x="0" y="0" width="900" height="250" fill="url(#cyberGrid)"/>
+
+    <!-- Ambient Cyber Glows -->
+    <circle cx="160" cy="135" r="190" fill="url(#radarGlow)"/>
+    <circle cx="765" cy="135" r="125" fill="url(#radarGlow)"/>
+
+    <!-- Animated Vertical Scanline Sweep -->
+    <rect x="0" y="-80" width="900" height="70" fill="url(#scanBeam)">
+      <animate attributeName="y" values="-80;260;-80" dur="7s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Top HUD Telemetry Bar -->
+    <rect x="0" y="0" width="900" height="34" fill="#04070d" fill-opacity="0.9"/>
+    <line x1="0" y1="34" x2="900" y2="34" stroke="#182b3f" stroke-width="1"/>
+
+    <!-- Pulsing Red Team & Uplink LEDs -->
+    <circle cx="24" cy="17" r="4.5" fill="#ff2a6d">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="36" y="21" font-family="'JetBrains Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="11.5" font-weight="700" fill="#ff2a6d">REDTEAM::OPSEC</text>
+
+    <text x="160" y="21" font-family="'JetBrains Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="11" fill="#6b859e">|  SSH-2.0-KALI  |  NODE: HANOI, VN (UTC+7)  |  UNIT: PTIT-ATTT</text>
+
+    <circle cx="748" cy="17" r="4" fill="#00ff41">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="760" y="21" font-family="'JetBrains Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="11.5" font-weight="700" fill="#00ff41">ROOT: ACTIVE</text>
+
+    <!-- Tactical Corner Brackets -->
+    <path d="M 20 56 L 20 44 L 44 44" fill="none" stroke="#00ff41" stroke-width="2"/>
+    <path d="M 20 224 L 20 236 L 44 236" fill="none" stroke="#00ff41" stroke-width="2"/>
+    <path d="M 880 56 L 880 44 L 856 44" fill="none" stroke="#00f0ff" stroke-width="2"/>
+    <path d="M 880 224 L 880 236 L 856 236" fill="none" stroke="#00f0ff" stroke-width="2"/>
+
+    <!-- Vector Kali Dual-Line Prompt Bracket -->
+    <path d="M 52 76 L 38 76 L 38 98 L 50 98" fill="none" stroke="#00f0ff" stroke-width="1.8"/>
+    <text x="56" y="80" font-family="'JetBrains Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="13.5" font-weight="700" fill="#00f0ff">(tinhatinh@kali)-[~/offensive-security]</text>
+    <text x="56" y="102" font-family="'JetBrains Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="13.5" font-weight="700" fill="#00ff41"># ./init_operator.sh --user "Danh Phan" --alias "Guo Jia"</text>
+
+    <!-- Main Callsign Title -->
+    <text x="38" y="153" font-family="'JetBrains Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="40" font-weight="800" fill="#f0f6fc">
+      TINHATINH
+    </text>
+    <text x="292" y="151" font-family="'JetBrains Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="21" font-weight="700" fill="#00ff41">
+      // DANH PHAN
+    </text>
+
+    <!-- Accent Divider Line -->
+    <rect x="38" y="167" width="580" height="2.2" fill="url(#neonLine)"/>
+
+    <!-- Subtitle / Role Pills -->
+    <rect x="38" y="184" width="196" height="28" rx="5" fill="#071d12" stroke="#00ff41" stroke-width="1.2" stroke-opacity="0.75"/>
+    <text x="51" y="202" font-family="'JetBrains Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="11.5" font-weight="700" fill="#00ff41">[+] PENETRATION TESTER</text>
+
+    <rect x="244" y="184" width="144" height="28" rx="5" fill="#071926" stroke="#00f0ff" stroke-width="1.2" stroke-opacity="0.75"/>
+    <text x="258" y="202" font-family="'JetBrains Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="11.5" font-weight="700" fill="#00f0ff">[+] CTF PLAYER</text>
+
+    <rect x="398" y="184" width="218" height="28" rx="5" fill="#210914" stroke="#ff2a6d" stroke-width="1.2" stroke-opacity="0.75"/>
+    <text x="412" y="202" font-family="'JetBrains Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="11.5" font-weight="700" fill="#ff2a6d">[+] OFFENSIVE RESEARCHER</text>
+
+    <!-- Right-Side Tactical Radar -->
+    <g transform="translate(765, 136)">
+      <circle cx="0" cy="0" r="68" fill="#050a12" stroke="#183d32" stroke-width="1.6"/>
+      <circle cx="0" cy="0" r="48" fill="none" stroke="#00ff41" stroke-width="0.9" stroke-dasharray="4 4" stroke-opacity="0.5"/>
+      <circle cx="0" cy="0" r="28" fill="none" stroke="#00f0ff" stroke-width="0.9" stroke-opacity="0.4"/>
+      <line x1="-68" y1="0" x2="68" y2="0" stroke="#00ff41" stroke-width="0.6" stroke-opacity="0.28"/>
+      <line x1="0" y1="-68" x2="0" y2="68" stroke="#00ff41" stroke-width="0.6" stroke-opacity="0.28"/>
+
+      <!-- Rotating Radar Sweep -->
+      <g>
+        <path d="M 0 0 L 0 -66 A 66 66 0 0 1 56 -35 Z" fill="#00ff41" fill-opacity="0.22"/>
+        <line x1="0" y1="0" x2="0" y2="-66" stroke="#00ff41" stroke-width="1.8"/>
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="4.5s" repeatCount="indefinite"/>
+      </g>
+
+      <!-- Target Blips -->
+      <circle cx="24" cy="-22" r="3.2" fill="#ff2a6d">
+        <animate attributeName="opacity" values="1;0.15;1" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="-30" cy="18" r="2.8" fill="#00f0ff">
+        <animate attributeName="opacity" values="0.2;1;0.2" dur="2.1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="16" cy="34" r="2.8" fill="#00ff41">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.9s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="0" r="3.5" fill="#00ff41"/>
+    </g>
+
+    <!-- Hex Signature Under Radar -->
+    <text x="765" y="224" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="600" fill="#6b859e">
+      0x7F454C46 // SYN-ACK
+    </text>
+  </g>
+
+  <rect x="2" y="2" width="896" height="246" rx="14" fill="none" stroke="#1d3147" stroke-width="1.5"/>
+</svg>

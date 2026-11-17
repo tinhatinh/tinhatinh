@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 415" width="100%" height="415" role="img" aria-label="Kali Linux Operator Terminal Dossier">
+  <defs>
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0b1018"/>
+      <stop offset="100%" stop-color="#070a10"/>
+    </linearGradient>
+    <linearGradient id="titleBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#131b29"/>
+      <stop offset="100%" stop-color="#0e1420"/>
+    </linearGradient>
+    <clipPath id="termClip">
+      <rect x="2" y="2" width="896" height="411" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#termClip)">
+    <!-- Terminal Body -->
+    <rect x="0" y="0" width="900" height="415" fill="url(#termBg)"/>
+
+    <!-- Window Title Bar -->
+    <rect x="0" y="0" width="900" height="36" fill="url(#titleBar)"/>
+    <line x1="0" y1="36" x2="900" y2="36" stroke="#1e2c3d" stroke-width="1"/>
+
+    <!-- macOS / Kali Window Controls -->
+    <circle cx="22" cy="18" r="6" fill="#ff5f56"/>
+    <circle cx="42" cy="18" r="6" fill="#ffbd2e"/>
+    <circle cx="62" cy="18" r="6" fill="#27c93f"/>
+
+    <!-- Window Title -->
+    <text x="450" y="22" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="12" font-weight="600" fill="#8b9eb3">
+      tinhatinh@kali: ~/opsec — zsh (112x26)
+    </text>
+    <text x="876" y="22" text-anchor="end" font-family="'JetBrains Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="11" font-weight="700" fill="#00ff41">
+      [pts/0]
+    </text>
+
+    <!-- COMMAND 1: Operator Dossier -->
+    <path d="M 38 60 L 26 60 L 26 80 L 36 80" fill="none" stroke="#00f0ff" stroke-width="1.7"/>
+    <text x="42" y="64" font-family="'JetBrains Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="13" font-weight="700" fill="#00f0ff">
+      (tinhatinh@kali)-[~/opsec]
+    </text>
+    <text x="42" y="84" font-family="'JetBrains Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="13" font-weight="700" fill="#00ff41">
+      $
+    </text>
+    <text x="58" y="84" font-family="'JetBrains Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#e6edf3">
+      id &amp;&amp; cat /etc/operator/dossier.yml
+    </text>
+
+    <text x="26" y="108" font-family="'JetBrains Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#7ee787">
+      uid=0(tinhatinh) gid=1337(redteam) groups=0(root),101(pentest),2026(ptit-attt)
+    </text>
+
+    <!-- Dossier Key-Value Alignment (strictly separate x coordinates, zero tspan overlap) -->
+    <g font-family="'JetBrains Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="12.5">
+      <text x="26" y="131" fill="#ff7b72">operator</text>
+      <text x="150" y="131" fill="#6e7681">:</text>
+      <text x="168" y="131" fill="#f0f6fc">"Danh Phan (tinhatinh)"</text>
+      <text x="382" y="131" fill="#8b949e"># Strategist Codename: Guo Jia (Fengxiao)</text>
+
+      <text x="26" y="151" fill="#ff7b72">academy</text>
+      <text x="150" y="151" fill="#6e7681">:</text>
+      <text x="168" y="151" fill="#a5d6ff">"PTIT - Posts &amp; Telecom Institute of Technology (Ha Noi, VN)"</text>
+
+      <text x="26" y="171" fill="#ff7b72">specialization</text>
+      <text x="150" y="171" fill="#6e7681">:</text>
+      <text x="168" y="171" fill="#d2a8ff">[ "Penetration Testing", "Web Exploit", "Reverse Eng", "CTF" ]</text>
+
+      <text x="26" y="191" fill="#ff7b72">human_langs</text>
+      <text x="150" y="191" fill="#6e7681">:</text>
+      <text x="168" y="191" fill="#ffa657">{ VI: "Native", ZH: "HSK4 (262/300) + HSKK Int", EN: "TOEIC 850+" }</text>
+
+      <text x="26" y="211" fill="#ff7b72">writeups_c2</text>
+      <text x="150" y="211" fill="#6e7681">:</text>
+      <text x="168" y="211" fill="#00f0ff">"https://tinhatinh.github.io/CTFWU/"</text>
+    </g>
+
+    <!-- Subtle Divider -->
+    <line x1="26" y1="227" x2="874" y2="227" stroke="#1b283a" stroke-width="1" stroke-dasharray="4 4"/>
+
+    <!-- COMMAND 2: Tactical Nmap Port Scan of Skills -->
+    <path d="M 38 245 L 26 245 L 26 265 L 36 265" fill="none" stroke="#00f0ff" stroke-width="1.7"/>
+    <text x="42" y="249" font-family="'JetBrains Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="13" font-weight="700" fill="#00f0ff">
+      (tinhatinh@kali)-[~/opsec]
+    </text>
+    <text x="42" y="269" font-family="'JetBrains Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="13" font-weight="700" fill="#00ff41">
+      $
+    </text>
+    <text x="58" y="269" font-family="'JetBrains Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#e6edf3">
+      nmap -sV --script=arsenal 127.0.0.1
+    </text>
+
+    <!-- Nmap Table Header -->
+    <g font-family="'JetBrains Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="12" font-weight="700" fill="#8b949e">
+      <text x="26" y="292">PORT</text>
+      <text x="128" y="292">STATE</text>
+      <text x="208" y="292">SERVICE</text>
+      <text x="355" y="292">LOADED MODULES / CAPABILITIES</text>
+    </g>
+
+    <!-- Nmap Rows -->
+    <g font-family="'JetBrains Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="12.2">
+      <text x="26" y="312" fill="#79c0ff">443/tcp</text>
+      <text x="128" y="312" fill="#00ff41" font-weight="700">open</text>
+      <text x="208" y="312" fill="#ffa657">web-offensive</text>
+      <text x="355" y="312" fill="#c9d1d9">SQLi | SSTI | XSS | SSRF | JWT | Deserialization | Burp</text>
+
+      <text x="26" y="331" fill="#79c0ff">445/tcp</text>
+      <text x="128" y="331" fill="#00ff41" font-weight="700">open</text>
+      <text x="208" y="331" fill="#ffa657">net-ad-recon</text>
+      <text x="355" y="331" fill="#c9d1d9">Nmap | Wireshark | Metasploit | AD Trust &amp; Privilege Esc</text>
+
+      <text x="26" y="350" fill="#79c0ff">1337/tcp</text>
+      <text x="128" y="350" fill="#00ff41" font-weight="700">open</text>
+      <text x="208" y="350" fill="#ffa657">rev-pwn-ctf</text>
+      <text x="355" y="350" fill="#c9d1d9">ELF/APK Reversing | Binary Analysis | Crypto | Forensics</text>
+
+      <text x="26" y="369" fill="#79c0ff">9001/tcp</text>
+      <text x="128" y="369" fill="#00ff41" font-weight="700">open</text>
+      <text x="208" y="369" fill="#ffa657">dev-tooling</text>
+      <text x="355" y="369" fill="#c9d1d9">Python | Bash | C/C++ | Assembly | JS/TS | Java | Docker</text>
+    </g>
+
+    <!-- COMMAND 3: Active Blinking Prompt -->
+    <text x="26" y="396" font-family="'JetBrains Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="13" font-weight="700" fill="#00ff41">$</text>
+    <text x="42" y="396" font-family="'JetBrains Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="13" font-weight="700" fill="#ff2a6d">./pwn_next_target.py</text>
+    <text x="204" y="396" font-family="'JetBrains Mono','Fira Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#8b949e">--stealth --capture-flag</text>
+    <rect x="396" y="383" width="9" height="15" fill="#00ff41">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <rect x="2" y="2" width="896" height="411" rx="12" fill="none" stroke="#1f2d3d" stroke-width="1.5"/>
+</svg>
